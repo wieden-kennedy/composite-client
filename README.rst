@@ -29,7 +29,6 @@ Documentation
 -------------
 For complete documentation, view:
 
-`Installing Composite client <http://composite-framework.readthedocs.org/en/latest/doc_sections/installation.html#composite-client>`
-
-`Composite Client reference <http://composite-framework.readthedocs.org/en/latest/doc_sections/composite-client.html>``
+`Installing Composite client <http://composite-framework.readthedocs.org/en/latest/doc_sections/installation.html#composite-client>`_
+`Composite Client reference <http://composite-framework.readthedocs.org/en/latest/doc_sections/composite-client.html>`_
 
