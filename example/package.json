@@ -1,0 +1,16 @@
+{
+  "name": "nyancat-sass",
+  "version": "0.0.0",
+  "description": "Nyancat over Composite",
+  "main": "n/a",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joel Griffith",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-ruby-sass": "^0.4.0",
+    "gulp": "^3.5.6",
+    "gulp-autoprefixer": "0.0.6"
+  }
+}

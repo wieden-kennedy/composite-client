@@ -1,0 +1,101 @@
+$baseFontSize : 16px;
+
+@function em($px, $base: $baseFontSize) {
+	@return ($px / $base) * 1em;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+
+
+body {
+    background-color:#1c4170;
+    color: #fff;
+    font-family: Arial;
+    font-size: em(16px);
+}
+
+a {
+    text-decoration: none;
+    color: #aaa;
+}
+#intro {
+
+}
+
+
+
+
+
+#rotate {
+	//padding: 20px 10px;
+
+	font-size: em(25px);
+}
+
+#rotate p {
+	text-align: center;
+	padding: 10px;
+}
+
+#waiting {
+	width: 200px;
+	margin: 50px auto;
+	font-size: em(20px);
+	display: none;
+}
+
+#waiting p {
+	text-align: center;
+}
+
+@media (orientation: portrait) {
+	#rotate {
+		display: block;
+	}
+	#intro {
+		display: none;
+	}
+
+}
+
+@media (orientation: landscape) {
+	#rotate {
+		display: none;
+	}
+	#intro {
+		display: block;
+	}
+
+}
+
+@import 'nyan.scss';
+@import 'button.scss';
+
+
+#intro button {
+	width: 140px;
+	height: 35px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -60px;
+	margin-top: -25px;
+
+}
