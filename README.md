@@ -19,10 +19,9 @@ composite.on(‘init’, function(response) {
     console.log(response);
     });
     composite.connect(‘http://yourUrlHere/composite’);
-    ````
+````
 
-    ## Documentation
-    For complete documentation, view the [Composite Client
-    reference](http://composite-framework.readthedocs.org/en/latest/doc_sections/composite-client.html),
-    at readthedocs.org.
+## Documentation
+For complete documentation, view the [Composite Client reference](http://composite-framework.readthedocs.org/en/latest/doc_sections/composite-client.html),
+at readthedocs.org.
 
