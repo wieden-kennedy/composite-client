@@ -151,7 +151,7 @@
      * @param {Object} message - Event payload
      */
     ComSock.prototype.messageHandler = function(message) {
-        var msg = JSON.parse(JSON.parse(message.body));
+        var msg = JSON.parse(message.body);
         switch (msg.type) {
             case 'init':
                 break;
