@@ -436,7 +436,7 @@
                     _this._sendPing();
                 }, 250);
             } else if (data.body) {
-                this._handleData(JSON.parse(JSON.parse(data.body)));
+                this._handleData(JSON.parse(data.body));
             }
         }.bind(this);
     };
